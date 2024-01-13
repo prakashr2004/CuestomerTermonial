@@ -1,0 +1,71 @@
+html{
+    background-color: rgb(241,244,249);
+    width: 100vw;
+    height: 100vh;
+ position: fixed;
+}
+h1{
+    color: rgb(12,32,67);
+    height: 30px;
+    letter-spacing: 1px;
+    font-family: 'Maven Pro', sans-serif;
+font-family: 'Noto Sans Linear A', sans-serif;
+}
+#hr{
+    width: 60px;
+    border-bottom: 3px solid rgb(49,157,235);
+    margin-left: 136px;
+  
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.subcontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+margin-top: 100px;
+text-align: center;
+
+}
+
+.profile
+{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.simple{
+    display: block;
+display: flex;
+align-items: center;
+justify-content: center;
+    gap: 30px;
+}
+#name{
+    color:rgb(12,32,67) ;
+    letter-spacing: 1.5px;
+    height: 0px;
+    font-family: 'Maven Pro', sans-serif;
+font-family: 'Noto Sans Linear A', sans-serif;
+}
+#role{
+    color: rgb(49,157,235);
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+#para{
+    color: rgb(133,154,185);
+}
+.simple{
+    color:  rgb(49,157,235);
+}
